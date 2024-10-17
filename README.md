@@ -1,0 +1,1 @@
+curl -sSL https://raw.githubusercontent.com/binhnv56/nextcloud-install/refs/heads/main/install.sh | bash -s -- --root_pass=<root_password> --bucket=<bucket_name> --s3_key=<s3_key> --s3_secret_key=<s3_secret_key>"
