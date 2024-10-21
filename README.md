@@ -12,4 +12,4 @@ runcmd:
   - apt-get install -y docker-ce docker-compose
   - systemctl start docker
   - systemctl enable docker
-  - curl -sSL https://raw.githubusercontent.com/binhnv56/nextcloud-install/refs/heads/main/install.sh | bash -s -- --root_pass=<root_password> --bucket=<bucket_name> --s3_key=<s3_key> --s3_secret_key=<s3_secret_key>
+  - curl -sSL https://raw.githubusercontent.com/binhnv56/nextcloud-install/refs/heads/main/install_ssl.sh | bash -s -- --root_pass=<root_password> --bucket=<bucket_name> --s3_key=<s3_key> --s3_secret_key=<s3_secret_key> --domain=<domain> --email=<email>
